@@ -12,7 +12,7 @@ import java.util.List;
 @XmlRootElement(name = "geonames")
 @XmlAccessorType(XmlAccessType.FIELD)
 @Data
-public class XmlCountryList {
+class XmlCountryList {
 
     @XmlElement(name = "country")
     private List<XmlCountry> countryList;

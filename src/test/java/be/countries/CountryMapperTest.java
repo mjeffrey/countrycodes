@@ -10,7 +10,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class CountryMapperTest {
 
-    public static final String COUNTRIES_XML = "countries.xml";
+    private static final String COUNTRIES_XML = "countries.xml";
     private CountryMapper countryMapper;
 
     @Before
